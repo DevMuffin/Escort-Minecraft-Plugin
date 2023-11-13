@@ -1,0 +1,14 @@
+name: Escort
+author: LowFat
+api-version: 1.17
+version: 1.0
+main: com.anthonyb.escort.EscortPlugin
+depend: [FooBarPlugin, WorldEdit]
+commands:
+  admin:
+    description: administrative tools
+    usage: /admin [startGame|test]
+  kit:
+    description: change kit
+  endgame:
+    description: TODO - remove.
